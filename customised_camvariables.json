@@ -1,17 +1,7 @@
 {
-  "input_datatypes": [ ],
   "input_namespaces": [ ],
   "output_namespace": "",
-  "input_groups": [
-    {
-      "name": "Instances-aws_instance.TEST1",
-      "label": "Instances - aws_instance.TEST1"
-    },
-    {
-      "name": "Other-aws",
-      "label": "Other - aws"
-    }
-  ],
+  "input_groups": [ ],
   "output_groups": [ ],
   "template_input_params": [
     {
@@ -19,7 +9,7 @@
       "label": "Test 1 Ami",
       "description": "Generated",
       "type": "string",
-      "default": "",
+      "default": "ami-2dcf8ec7",
       "validation": "",
       "group_name": "Instances-aws_instance.TEST1",
       "required": true,
@@ -33,7 +23,7 @@
       "label": "Test 1 Aws Instance Type",
       "description": "Generated",
       "type": "string",
-      "default": "",
+      "default": "t2.micro",
       "validation": "",
       "group_name": "Instances-aws_instance.TEST1",
       "required": true,
@@ -48,7 +38,7 @@
       "label": "Test 1 Name",
       "description": "Generated",
       "type": "string",
-      "default": "",
+      "default": "ICAM_TEST",
       "validation": "",
       "group_name": "Instances-aws_instance.TEST1",
       "required": true,
