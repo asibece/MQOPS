@@ -1,8 +1,3 @@
-variable "region" {
-  type = "string"
-  description = "Generated"
-}
-
 variable "TEST1_ami" {
   type = "string"
   description = "Generated"
