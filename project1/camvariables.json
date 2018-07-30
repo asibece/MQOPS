@@ -1,0 +1,55 @@
+{
+  "input_datatypes": [ ],
+  "input_namespaces": [ ],
+  "output_namespace": "",
+  "input_groups": [  {
+    "name": "Instances-aws_instance.TEST1",
+    "label": "Instances - aws_instance.TEST1"
+  } ],
+  "output_groups": [ ],
+  "template_input_params": [
+    {
+      "name": "TEST1_ami",
+      "label": "Test 1 Ami",
+      "description": "Generated",
+      "type": "string",
+      "default": "ami-2dcf8ec7",
+      "validation": "",
+      "group_name": "Instances-aws_instance.TEST1",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "TEST1_aws_instance_type",
+      "label": "Test 1 Aws Instance Type",
+      "description": "Generated",
+      "type": "string",
+      "default": "t2.micro",
+      "validation": "",
+      "group_name": "Instances-aws_instance.TEST1",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "TEST1_name",
+      "label": "Test 1 Name",
+      "description": "Generated",
+      "type": "string",
+      "default": "ASHIK_ICAM_TEST1",
+      "validation": "",
+      "group_name": "Instances-aws_instance.TEST1",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    }
+  ],
+  "template_output_params": [ ]
+}
