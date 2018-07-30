@@ -1,1 +1,1 @@
-# Testing Terraform templet for ICAM.
+#Testing Terraform template for ICAM.
