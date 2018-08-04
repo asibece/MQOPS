@@ -3,6 +3,4 @@
 Created 7/30/18 by ashik for project1
 
 
-## Design Decisions
-| Design item                | Decision|
-| :----------------------------------- | :--------------------------------------------------------------------------------|
+Simple template for testing in ICAM.
