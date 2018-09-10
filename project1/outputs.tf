@@ -1,3 +1,3 @@
 output "instance_ips" {
-  value = ["${Instances-aws_instance.TEST1.public_ip}"]
+  value = ["${TEST1_name.public_ip}"]
 }
