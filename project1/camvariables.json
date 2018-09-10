@@ -13,7 +13,7 @@
       "label": "Test 1 Ami",
       "description": "Generated",
       "type": "string",
-      "default": "ami-2dcf8ec7",
+      "default": "ami-001f458b272df4b4d",
       "validation": "",
       "group_name": "Instances-aws_instance.TEST1",
       "required": true,
